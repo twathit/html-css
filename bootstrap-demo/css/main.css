@@ -1,3 +1,13 @@
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	border-radius: 3px;
+}
+
 .pipe {		/*加竖杠*/
 	width: 1px;
 	height: 22px;
@@ -6,7 +16,7 @@
 }
 
 .navbar-brand {
-	background-image: url('../img/logo.png');
+	background-image: url('../img/logo.jpg');
 	width: 50px;
 	background-size: 80%;
 	background-repeat: no-repeat;
@@ -21,4 +31,82 @@
 
 .side-bar .list-group-item .active {
 	background-color: #6b5dde;
+}
+
+.news-list-item {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom:1px solid #ccc ;
+}
+
+.news-list-item:first-child {
+	padding-top: 0;
+}
+
+.news-list-item .title {
+	display: block;
+	color: #444;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
+
+.news-list-item .title:hover {
+	color:#6b5dde;
+}
+
+.news-list-item .info {
+	color: #999;
+}
+
+.avatar,.read,.zan {
+	display: inline-block;
+}
+
+.avatar img,.read,.zan {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+.side-bar-card {
+	background: rgba(0,0,0,.05);
+	margin-top: 15px;
+	padding: 10px 0;
+	border-radius: 3px;
+}
+
+.side-bar-card .flag {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.side-bar-card .text-lg {
+	font-size:150% ;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .list .item {
+	padding:10px 15px;
+}
+
+.side-bar-card .card-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.side-bar-card .card-body .list .item:hover {
+	background: rgba(0,0,0,.05);
+}
+
+.side-bar-card .card-body .list .item .title {
+	padding-bottom: 5px;
+}
+
+.side-bar-card .card-body .list .item .desc {
+	color: #999;
 }
